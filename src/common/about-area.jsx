@@ -76,7 +76,7 @@ const AboutArea = () => {
                            <div className="tp-about__section-box">
                               <h4 className="tp-section-subtitle">{title}</h4>
                               <h3 className="tp-section-title mb-15">{sub_title}</h3>
-                              <p>{des}</p>
+                              <p>{des} hello </p>
                            </div>
                            <div className="tp-about__list">
                               <ul>
