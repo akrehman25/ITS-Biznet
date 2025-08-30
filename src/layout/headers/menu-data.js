@@ -1,20 +1,5 @@
 const menu_data = [
   {
-    id: 1,
-    mega_menu: false,
-    has_dropdown: true,
-    title: "Home",
-    link: "/",
-    active: "active",
-    sub_menus: [
-      { link: "/", title: "Data analytics" },
-      { link: "/home-2", title: "Payment Gateway" },
-      { link: "/home-3", title: "CRM Software" },
-      { link: "/home-4", title: "Security Software" },
-      { link: "/home-5", title: "Saas" },
-    ],
-  },
-  {
     id: 2,
     mega_menu: false,
     has_dropdown: true,
@@ -29,11 +14,6 @@ const menu_data = [
       { link: "/team-details", title: "Team Details" },
       { link: "/career", title: "Career" },
       { link: "/career-details", title: "Career Details" },
-      { link: "/integrations", title: "Integrations" },
-      { link: "/price", title: "Price" },
-      { link: "/register", title: "Register" },
-      { link: "/sign-in", title: "Signin" },
-      { link: "/404", title: "404" }, 
     ],
   },
   
@@ -61,7 +41,7 @@ const menu_data = [
       { link: "/blog", title: "Blog" },
       { link: "/blog-list", title: "Blog List" },
       { link: "/blog-details", title: "Blog Details" },
-      { link: "/blog-details-2", title: "Blog Details 02" },
+      // { link: "/blog-details-2", title: "Blog Details 02" },
     ],
   },
   

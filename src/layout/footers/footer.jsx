@@ -17,9 +17,9 @@ import { useIsomorphicLayoutEffect } from '@/src/hooks/useIsomorphicEffect';
 const footer_content  = {
     title: <>Get Our Latest's News <br /> & Updates</>,
     description: <>Our highly skilled development teams <br /> specialized in data analysis.</>,
-    phone: "+806(000)8899",
+    phone: "03492654080",
     contact_mail: "contact@info.com",
-    location: "1234 North Avenue Luke Lane, South Bend,",
+    location: "USA,washington DC",
 
     copy_right: <>Full Copyright & Design By <Link href="#">@Theme pure</Link> – {new Date().getFullYear()}</>,
 
@@ -31,12 +31,8 @@ const footer_content  = {
             title: "What We Do",
             delay: ".7s",
             links: [
-                {name: "Business", link: "#"},
-                {name: "Technology", link: "#"},
-                {name: "Online Marketing", link: "#"},
-                {name: "Advertising Strategy", link: "#"},
-                {name: "Strategy", link: "#"},
-                {name: "Development", link: "#"},
+                {name: "Technology", link: "/project"},
+                {name: "Development", link: "/project"},
             ]
         },
         {
@@ -48,8 +44,6 @@ const footer_content  = {
             links: [
                 {name: "About", link: "/about"},
                 {name: "Services", link: "/service"},
-                {name: "How It Works", link: "#"},
-                {name: "Pricing Plan", link: "/price"},
                 {name: "Blog", link: "/blog"},
                 {name: "Contact", link: "/contact"},
             ]
